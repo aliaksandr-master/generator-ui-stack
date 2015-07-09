@@ -1,0 +1,10 @@
+{
+  "name": "package",
+  "version": "<%= version %>",
+  "dependencies": {
+    "hless": "*",
+    "bootstrap-less": "3.2.0",
+    "less-elements": "git://github.com/dmitryf/elements.git",
+    "jquery": "^1.9.0"
+  }
+}

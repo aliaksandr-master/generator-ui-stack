@@ -20,5 +20,4 @@ bower_components/
 .tmp
 
 # coverage
-generators-cov/
-.temp-test/
+build/
