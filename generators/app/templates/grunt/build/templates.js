@@ -10,6 +10,7 @@ module.exports = function (grunt, options) {
 
 		.jade({
 			options: {
+				pretty: true,
 				compileDebug: true,
 				data: _.extend(require(options.CWD + '/' + options.SRC + '/templates-data/index.js'), {
 					_: require('lodash')
